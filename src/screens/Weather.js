@@ -12,7 +12,7 @@ export default function Weather({ route }) {
   async function requestAPI() {
     const response = await axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + city, {
       params: {
-        appid: '9422a4dbd1cc9b3a0e4d8412b8b2b5e6',
+        appid: 'SUA_KEY_AQUI',
         lang: 'pt_br',
         units: 'metric',
       }
